@@ -72,11 +72,11 @@ body {
     border-radius: 50px;
     cursor: pointer;
 }
-
+/*BUTTON*/
 .navbar button:hover {
     background-color: #167dc2;
 }
-
+/*PROFILE SECTION*/
 .profile-section {
     width: 280px;
     height: 50px;
@@ -119,4 +119,37 @@ body {
     bottom: 30px;
     right: 20px;
     width: 30px;
+}
+
+/*FIXED MAINPAGE*/
+.fixed-home {
+    position: fixed;
+    color: #E7E9EA;
+    border-bottom: 0.5px solid #e7e9ea81;
+    width: 600px;
+    height: 100px;
+    left: 23.5%;
+    font-family: sans-serif;
+}
+
+.fixed-home h2 {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.fixed-home span {
+    width: 100%;
+    cursor: pointer;
+    margin-left: 25%;
+    font-weight: bolder;
+    /*BURADA ACTIVE ÖZELLİĞİ KULLANILACAK*/
+    border-bottom: 4px solid #1a8cd8;
+}
+
+/*BURADA ACTIVE ÖZELLİĞİ KULLANILACAK*/
+
+.fixed-home span:last-child {
+    border: none;
+    font-weight: lighter;
 }
