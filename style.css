@@ -149,7 +149,7 @@ body {
     margin-left: 25%;
     font-weight: bolder;
     /*BURADA ACTIVE ÖZELLİĞİ KULLANILACAK*/
-    border-bottom: 4px solid #1a8cd8;
+    border-bottom: 2px solid #1a8cd8;
 }
 
 /*BURADA ACTIVE ÖZELLİĞİ KULLANILACAK*/
@@ -449,4 +449,31 @@ body {
     left: 10px;
     color: #1d9bf0;
     cursor: pointer;
+}
+
+.right-side-foot {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: #71767b;
+    bottom: -95%;
+    left: 9%;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+
+.right-side-foot div {
+    margin-left: 10px;
+}
+
+.right-side-foot div:hover {
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.right-side-foot div:last-child:hover {
+    border: none;
+    cursor: default;
 }
