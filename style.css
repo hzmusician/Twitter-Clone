@@ -237,3 +237,48 @@ body {
     left: 30px;
     color: #e7e9ea88;
 }
+
+/*CHECKED PROFILE*/
+.checked-profile {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    top: 10%;
+    left: 9%;
+    background: #16181c;
+    border-radius: 15px;
+}
+
+.checked-profile h2 {
+    color: #E7E9EA;
+    font-size: 23px;
+    font-weight: bolder;
+    position: absolute;
+    left: 7%;
+}
+
+.checked-profile div {
+    position: relative;
+    color: #E7E9EA;
+    font-size: 16px;
+    font-weight: bolder;
+    top: 50px;
+    left: 5px;
+}
+
+.checked-profile button {
+    width: 250px;
+    height: 40px;
+    background: #1a8cd8;
+    color: #E7E9EA;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    border-radius: 20px;
+}
+
+.checked-profile button:hover {
+    background-color: #167dc2;
+}
