@@ -351,5 +351,102 @@ body {
 
 /*FOLLOW*/
 .follow {
-    
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -85%;
+    left: 9%;
+    background: #16181c;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow h2 {
+    color: #E7E9EA;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+
+.profile-follow {
+    width: 90%;
+    height: 70px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-follow:hover {
+    background-color: #0f1419;
+}
+
+.personal-nick {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-follow img {
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    border-radius: 50%;
+}
+
+.profile-follow img:hover {
+    filter: grayscale(50%);
+    cursor: pointer;
+}
+
+.profile-follow span {
+    width: 80px;
+    color: #E7E9EA;
+    position: relative;
+    left: 55px;
+    top: -30px;
+    font-weight: bolder;
+}
+
+.profile-follow span:hover {
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+#nick-name {
+    color: #71767b;
+    font-weight: lighter;
+}
+
+#nick-name:hover {
+    border: none;
+}
+
+.profile-follow button {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    right: 10px;
+    top: 20px;
+    background: #E7E9EA;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #0f1419;
+}
+
+.profile-follow button:hover {
+    background: #d7dbdc;
+}
+
+.follow h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #1d9bf0;
+    cursor: pointer;
 }
