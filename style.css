@@ -208,3 +208,32 @@ body {
     border-radius: 30px;
     font-weight: bolder;
 }
+
+/*SEARCH*/
+.right-side-bar {
+    width: 425px;
+    height: 100vh;
+    position: absolute;
+    right: -5%;
+    top: 0;
+    border: 1px solid red;
+}
+
+.right-side-bar input {
+    position: absolute;
+    margin: 10px;
+    width: 350px;
+    height: 40px;
+    left: 25px;
+    border-radius: 30px;
+    background-color: #202327;
+}
+
+.right-side-bar input::placeholder {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    left: 30px;
+    color: #e7e9ea88;
+}
