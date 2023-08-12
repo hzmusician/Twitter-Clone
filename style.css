@@ -154,3 +154,57 @@ body {
     border: none;
     font-weight: lighter;
 }
+
+/*TEXT-ZONE*/
+.text-zone {
+    position: relative;
+    width: 600px;
+    height: 130px;
+    border-bottom: 0.5px solid #e7e9ea81;
+    left: 25%;
+    top: 15%;
+}
+
+.text-zone-photo {
+    position: relative;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.text-zone input {
+    background-color: transparent;
+    font-family: sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.mini-logos {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    bottom: 10px;
+    left: 30px;
+}
+
+.mini-logos img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.text-zone button {
+    width: 90px;
+    height: 40px;
+    position: relative;
+    bottom: -20px;
+    right: 10px;
+    float: right;
+    color: #e7e9ea7a;
+    background-color: #0f4e78;
+    border-radius: 30px;
+    font-weight: bolder;
+}
