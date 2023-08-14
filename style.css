@@ -413,7 +413,7 @@ body {
 }
 
 .profile-follow span:hover {
-    border-bottom: 1px solid gray;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -469,11 +469,137 @@ body {
 }
 
 .right-side-foot div:hover {
-    border-bottom: 1px solid gray;
+    text-decoration: underline;
     cursor: pointer;
 }
 
 .right-side-foot div:last-child:hover {
-    border: none;
+    text-decoration: none;
     cursor: default;
+}
+
+/*TWEETS*/
+.content {
+    width: 600px;
+    height: auto;
+    border-bottom: 0.5px solid #71767b;
+    border-right: 0.5px solid #71767b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 48.4%;
+    top: 130%;
+    transform: translate(-50%, -50%);
+}
+
+.tweet {
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.tweet #pp {
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tweet-id {
+    width: 230px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.tweet span {
+    color: #fff;
+    position: relative;
+    font-weight: lighter;
+    color: #cccccc;
+    left: 5%;
+    bottom: 5%;
+    cursor: pointer;
+}
+
+.tweet span b {
+    font-weight: 700;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.tweet span b:hover {
+    text-decoration: underline;
+}
+
+.tweet #tweet-text {
+    color: #fff;
+    position: absolute;
+    top: 4%;
+    left: 12%;
+}
+
+.tweet #tweet-more {
+    width: 25px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.tweet #tweet-more:hover {
+    background: #0a171f;
+    border-radius: 50%;
+}
+
+.post {
+    width: 100%;
+    height: auto;
+    border: 0.5px solid #cccc;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.post img {
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.post video {
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*BUTTONS*/
+.tweet-buttons {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+}
+
+.tweet-buttons img {
+    width: 1.25em;
+    margin-left: 60px;
+    filter: grayscale(100%);
+}
+
+.tweet-buttons img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.tweet-buttons span {
+    cursor: default;
+    position: relative;
+    font-size: 13px;
+    top: 7px;
+    left: 5px;
 }
