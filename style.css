@@ -25,7 +25,7 @@ body {
 /*Menu*/
 .navbar .slide-bar {
     margin-left: 4rem;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
 }
 
 .navbar .main-logo {
@@ -38,10 +38,9 @@ body {
 
 .navbar .slide-bar div {
     width: 100%;
-    height: 30px;
+    height: 50px;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -49,11 +48,6 @@ body {
     width: 190px;
     background-color: #181818;
     border-radius: 20px;
-}
-
-.navbar .slide-bar div:first-child:hover {
-    background-color: black;
-    cursor: pointer;
 }
 
 .navbar .slide-bar img {
@@ -71,6 +65,7 @@ body {
     width: 73%;
     height: 50px;
     position: relative;
+    margin-top: 10px;
     margin-left: 16%;
     background-color: #1d9bf0;
     font-family: sans-serif;
@@ -210,6 +205,11 @@ body {
     cursor: pointer;
 }
 
+.mini-logos img:hover {
+    background-color: #031018;
+    border-radius: 50%;
+}
+
 .text-zone button {
     width: 90px;
     height: 40px;
@@ -221,6 +221,7 @@ body {
     background-color: #0f4e78;
     border-radius: 30px;
     font-weight: bolder;
+    cursor: default;
 }
 
 /*SEARCH*/
