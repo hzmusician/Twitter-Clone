@@ -327,7 +327,7 @@ body {
 /*AGENDA*/
 .agenda {
     width: 350px;
-    height: 100%;
+    height: 95%;
     border-radius: 20px;
     position: absolute;
     top: 35%;
@@ -338,11 +338,10 @@ body {
 
 .agenda h2 {
     color: #E7E9EA;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bolder;
     position: absolute;
-    left: 2%;
-    top: 1%;
+    padding: 10px;
 }
 
 .agenda .tags {
@@ -352,6 +351,7 @@ body {
     flex-direction: column;
     position: relative;
     top: 50px;
+    padding: 13px;
 }
 
 .agenda .tags:hover {
@@ -361,10 +361,17 @@ body {
 
 .tags h3, #posts-number {
     color: #71767b;
+    font-size: 14px;
 }
 
 .tags span {
     color: #E7E9EA;
+    font-size: 14px;
+}
+
+.tags .big-tags {
+    font-size: 17px;
+    font-weight: bolder;
 }
 
 .tags img {
@@ -380,8 +387,8 @@ body {
 
 .agenda h4 {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 15px;
+    left: 15px;
     color: #1d9bf0;
     cursor: pointer;
 }
