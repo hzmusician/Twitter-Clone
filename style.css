@@ -250,7 +250,15 @@ body {
     z-index: 1;
 }
 
-.right-side-bar input { /*Div içine alınacak*/
+.right-side-bar .search-bar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+
+.right-side-bar input {
     position: fixed;
     margin: 10px;
     width: 350px;
@@ -276,17 +284,17 @@ body {
     width: 350px;
     height: 150px;
     top: 10%;
-    left: 9%;
+    left: 8%;
     background: #16181c;
     border-radius: 15px;
 }
 
 .checked-profile h2 {
     color: #E7E9EA;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bolder;
     position: absolute;
-    left: 2%;
+    padding: 13px;
 }
 
 .checked-profile div {
@@ -294,21 +302,22 @@ body {
     color: #E7E9EA;
     font-size: 16px;
     font-weight: bolder;
-    top: 50px;
-    left: 5px;
+    padding: 13px;
+    top: 35px;
 }
 
 .checked-profile button {
-    width: 250px;
-    height: 40px;
-    background: #1a8cd8;
-    color: #E7E9EA;
+    width: 240px;
+    height: 37px;
+    background: #1d9bf0;
+    color: #f3f9fd;
+    font-size: 15px;
     font-family: sans-serif;
     font-weight: bolder;
     position: absolute;
     bottom: 10px;
-    left: 45px;
     border-radius: 20px;
+    margin-left: 15px;
 }
 
 .checked-profile button:hover {
@@ -324,6 +333,7 @@ body {
     top: 35%;
     left: 9%;
     background: #16181c;
+    margin-top: 15px;
 }
 
 .agenda h2 {
