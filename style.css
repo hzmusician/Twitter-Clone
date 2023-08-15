@@ -80,6 +80,25 @@ body {
 .navbar button:hover {
     background-color: #167dc2;
 }
+
+.navbar .feather-pen {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 16%;
+    left: 17%;
+    background: #1d9bf0;
+    border-radius: 50%;
+    object-fit: cover;
+    display: none;
+}
+
+.feather-pen img {
+    width: 40px;
+    object-fit: cover;
+}
+
+
 /*PROFILE SECTION*/
 .profile-section {
     width: 250px;
@@ -657,4 +676,119 @@ body {
     font-size: 13px;
     top: 7px;
     left: 5px;
+}
+
+
+/*768PX*/
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        width: 100px;
+        position: fixed;
+        left: -10%;
+        background-color: #000000;
+    }
+
+    .navbar .slide-bar div:hover {
+        background: none;
+    }
+
+    .navbar .slide-bar img:hover {
+        background: #71767b;
+        border-radius: 50%;
+    }
+
+    .navbar span {
+        display: none;
+    }
+
+    .right-side-bar {
+        display: none;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .navbar .feather-pen {
+        display: block;
+        position: absolute;
+        left: 55%;
+        cursor: pointer;
+    }
+
+    .profile-section h2, span {
+        display: none;
+    }
+
+    .profile-section img {
+        position: absolute;
+        left: -22%;
+        top: 20%;
+    }
+
+    .profile-section img:last-child {
+        display: none;
+    }
+
+    .profile-section:hover {
+        background: none;
+    }
+
+    .fixed-home {
+        width: 90%;
+        position: fixed;
+        left: 10%;
+    }
+
+    .fixed-home div {
+        position: absolute;
+    }
+
+    .fixed-home div span {
+        display: block;
+    }
+
+    .text-zone {
+        width: 90%;
+        position: absolute;
+        left: 10%;
+    }
+
+    .content {
+        width: 90%;
+        position: relative;
+        top: 142%;
+        left: 54%;
+    }
+
+    .tweet .tweet-id {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .tweet-id span {
+        display: block;
+        margin-right: 10px;
+        margin-left: 5px;
+        top: 5px;
+    }
+
+    .tweet #tweet-text {
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+
+    .tweet-buttons {
+        width: 100%;
+        position: relative;
+        right: 50px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    .tweet-buttons span {
+        display: block;
+    }
 }
