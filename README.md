@@ -4,7 +4,7 @@ In this project, I tried to make a twitter clone and tried to simulate it as muc
 
 <img src="https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/read-me-svg/html-5-svgrepo-com.svg" width="50px"><img src="https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/read-me-svg/css-3-svgrepo-com.svg" width="50px"><img src="https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/read-me-svg/javascript-svgrepo-com.svg" width="50px"><img src="https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/read-me-svg/jquery-svgrepo-com.svg" width="50px">
 
-<img src="https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/desktop-gif.gif" width="auto">
+<img src="[https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/desktop-gif.gif](https://github.com/hzmusician/Twitter-Clone/blob/main/Photos/new-desktop-gif.gif)" width="auto">
 
 To-do list for this project:
 - [x] Desktop Design
