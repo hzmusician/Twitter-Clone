@@ -589,10 +589,9 @@ body {
 }
 
 .tweet span {
-    color: #fff;
+    color: #cccccc;
     position: relative;
     font-weight: lighter;
-    color: #cccccc;
     left: 5%;
     bottom: 5%;
     cursor: pointer;
